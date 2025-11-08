@@ -1,0 +1,38 @@
+2025-10-08 11:16:13,385 - INFO - ✅ Connected to Elasticsearch: Elasticsearch 8.10.2 connected
+2025-10-08 11:16:13,582 - INFO - ✅ Loaded isolation_forest
+2025-10-08 11:16:13,582 - INFO - ✅ Loaded one_class_svm
+2025-10-08 11:16:13,585 - INFO - ✅ Loaded lof_detector
+2025-10-08 11:16:13,585 - INFO - ✅ Loaded scaler
+2025-10-08 11:16:13,585 - INFO - ✅ Loaded label_encoders
+2025-10-08 11:16:13,585 - INFO - ✅ Loaded 3 ML models successfully
+2025-10-08 11:16:13,586 - INFO - 🚀 Starting real-time ML monitoring for 60 minutes
+2025-10-08 11:31:08,006 - INFO - 🛑 Received interrupt signal, shutting down...
+2025-10-08 11:31:08,006 - INFO - 🎯 FINAL MONITORING STATISTICS
+2025-10-08 11:31:08,007 - INFO - ==================================================
+2025-10-08 11:31:08,007 - INFO - 📊 Total Events Processed: 0
+2025-10-08 11:31:08,007 - INFO - 🚨 Anomalies Detected: 0
+2025-10-08 11:31:08,007 - INFO - ⚠️  High Risk Events: 0
+2025-10-08 11:31:08,007 - INFO - 📈 Anomaly Rate: 0.00%
+2025-10-08 11:31:08,007 - INFO - ⏱️  Total Runtime: 0:14:54.420657
+2025-10-08 11:31:08,007 - INFO - ⚡ Average Prediction Time: 0.0000 seconds
+2025-10-08 11:31:08,007 - INFO - 🎯 Processing Rate: 0.00 events/second
+2025-10-08 11:31:08,007 - INFO - ==================================================
+2025-10-11 10:26:14,977 - INFO - ✅ Connected to Elasticsearch: Elasticsearch 8.10.2 connected
+2025-10-11 10:26:15,148 - INFO - ✅ Loaded isolation_forest
+2025-10-11 10:26:15,150 - INFO - ✅ Loaded one_class_svm
+2025-10-11 10:26:15,151 - INFO - ✅ Loaded lof_detector
+2025-10-11 10:26:15,152 - INFO - ✅ Loaded scaler
+2025-10-11 10:26:15,152 - INFO - ✅ Loaded label_encoders
+2025-10-11 10:26:15,153 - INFO - ✅ Loaded 3 ML models successfully
+2025-10-11 10:26:15,153 - INFO - 🚀 Starting real-time ML monitoring for 60 minutes
+2025-10-11 10:26:31,113 - INFO - 🛑 Received interrupt signal, shutting down...
+2025-10-11 10:26:31,115 - INFO - 🎯 FINAL MONITORING STATISTICS
+2025-10-11 10:26:31,116 - INFO - ==================================================
+2025-10-11 10:26:31,117 - INFO - 📊 Total Events Processed: 0
+2025-10-11 10:26:31,118 - INFO - 🚨 Anomalies Detected: 0
+2025-10-11 10:26:31,118 - INFO - ⚠️  High Risk Events: 0
+2025-10-11 10:26:31,118 - INFO - 📈 Anomaly Rate: 0.00%
+2025-10-11 10:26:31,119 - INFO - ⏱️  Total Runtime: 0:00:15.962111
+2025-10-11 10:26:31,119 - INFO - ⚡ Average Prediction Time: 0.0000 seconds
+2025-10-11 10:26:31,121 - INFO - 🎯 Processing Rate: 0.00 events/second
+2025-10-11 10:26:31,122 - INFO - ==================================================

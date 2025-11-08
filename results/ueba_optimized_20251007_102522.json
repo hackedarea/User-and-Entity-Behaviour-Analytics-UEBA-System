@@ -1,0 +1,10 @@
+{
+  "timestamp": "20251007_102522",
+  "version": "3.1",
+  "dataset_size": 100,
+  "processing_time": 3.1916182041168213,
+  "attack_rate": 0.15,
+  "best_model": "IsolationForest",
+  "best_accuracy": 1.0,
+  "feature_count": 11
+}

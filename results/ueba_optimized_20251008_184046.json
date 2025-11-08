@@ -1,0 +1,10 @@
+{
+  "timestamp": "20251008_184046",
+  "version": "3.1",
+  "dataset_size": 500,
+  "processing_time": 1.168626308441162,
+  "attack_rate": 0.15,
+  "best_model": "RandomForest",
+  "best_accuracy": 1.0,
+  "feature_count": 11
+}

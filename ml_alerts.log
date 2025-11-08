@@ -1,0 +1,551 @@
+2025-10-08 18:28:09,362 - INFO - ✅ Connected to Elasticsearch at http://localhost:9200
+2025-10-08 18:28:09,362 - INFO - 🚀 Starting ML Alert Monitoring
+2025-10-08 18:28:09,363 - INFO - ⏰ Duration: 30 minutes, Check interval: 30 seconds
+2025-10-08 18:28:09,363 - INFO - 🔍 Monitoring Cycle 1
+2025-10-08 18:28:09,380 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:28:09,381 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:28:09.381203",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.5648554354421924,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.20",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:28:09,382 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:28:39,382 - INFO - 🔍 Monitoring Cycle 2
+2025-10-08 18:28:39,412 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:28:39,414 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:28:39.414200",
+  "anomaly_count": 3,
+  "severity_breakdown": {
+    "CRITICAL": 1,
+    "HIGH": 1,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.9158746196277922,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.165",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.8792032290068768,
+      "severity": "HIGH",
+      "ip": "192.168.1.61",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.6135878644640678,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.248",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:28:39,415 - WARNING - 🚨 CRITICAL THREATS DETECTED: 1 events
+2025-10-08 18:28:39,415 - WARNING - 🔒 Consider blocking IPs: 192.168.1.165
+2025-10-08 18:28:39,416 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:28:39,416 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:29:09,417 - INFO - 🔍 Monitoring Cycle 3
+2025-10-08 18:29:09,428 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:29:09,431 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:29:09.430981",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.9653866877631009,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.9",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:29:09,434 - WARNING - 🚨 CRITICAL THREATS DETECTED: 1 events
+2025-10-08 18:29:09,434 - WARNING - 🔒 Consider blocking IPs: 192.168.1.9
+2025-10-08 18:29:09,435 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:29:39,437 - INFO - 🔍 Monitoring Cycle 4
+2025-10-08 18:29:39,449 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:29:39,450 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:29:39.450461",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 1,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.963114648420204,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.171",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:29:39,451 - WARNING - 🚨 CRITICAL THREATS DETECTED: 1 events
+2025-10-08 18:29:39,451 - WARNING - 🔒 Consider blocking IPs: 192.168.1.171
+2025-10-08 18:29:39,452 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:30:09,453 - INFO - 🔍 Monitoring Cycle 5
+2025-10-08 18:30:09,478 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:30:09,479 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:30:09.479148",
+  "anomaly_count": 2,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8319492616843565,
+      "severity": "HIGH",
+      "ip": "192.168.1.48",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.6363057353149373,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.184",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:30:09,480 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:30:09,480 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:30:39,480 - INFO - 🔍 Monitoring Cycle 6
+2025-10-08 18:30:39,492 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:30:39,494 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:30:39.494194",
+  "anomaly_count": 2,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8607104332784381,
+      "severity": "HIGH",
+      "ip": "192.168.1.70",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.5908725130754665,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.194",
+      "attack_type": "SQL Injection"
+    }
+  ]
+}
+2025-10-08 18:30:39,496 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:30:39,497 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:31:09,497 - INFO - 🔍 Monitoring Cycle 7
+2025-10-08 18:31:09,516 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:31:09,525 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:31:09.524925",
+  "anomaly_count": 5,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 2,
+    "MEDIUM": 3,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.895121382016359,
+      "severity": "HIGH",
+      "ip": "192.168.1.134",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.7034200832183618,
+      "severity": "HIGH",
+      "ip": "192.168.1.227",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.6678493795622239,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.139",
+      "attack_type": "Directory Traversal"
+    }
+  ]
+}
+2025-10-08 18:31:09,527 - WARNING - ⚠️  HIGH RISK THREATS: 2 events
+2025-10-08 18:31:09,528 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:31:39,529 - INFO - 🔍 Monitoring Cycle 8
+2025-10-08 18:31:39,559 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:31:39,562 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:31:39.562353",
+  "anomaly_count": 2,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 2,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8144673365131514,
+      "severity": "HIGH",
+      "ip": "192.168.1.49",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.7209054547557081,
+      "severity": "HIGH",
+      "ip": "192.168.1.62",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:31:39,563 - WARNING - ⚠️  HIGH RISK THREATS: 2 events
+2025-10-08 18:31:39,564 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:32:09,564 - INFO - 🔍 Monitoring Cycle 9
+2025-10-08 18:32:09,591 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:32:09,593 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:32:09.593494",
+  "anomaly_count": 4,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 2,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8321446752159587,
+      "severity": "HIGH",
+      "ip": "192.168.1.171",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.7445473539871486,
+      "severity": "HIGH",
+      "ip": "192.168.1.79",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.670259003711219,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.85",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:32:09,596 - WARNING - ⚠️  HIGH RISK THREATS: 2 events
+2025-10-08 18:32:09,596 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:32:39,597 - INFO - 🔍 Monitoring Cycle 10
+2025-10-08 18:32:39,638 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:32:39,639 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:32:39.639013",
+  "anomaly_count": 3,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 3,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8379489131559463,
+      "severity": "HIGH",
+      "ip": "192.168.1.27",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.7947286362157743,
+      "severity": "HIGH",
+      "ip": "192.168.1.200",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.7276921367189655,
+      "severity": "HIGH",
+      "ip": "192.168.1.114",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:32:39,644 - WARNING - ⚠️  HIGH RISK THREATS: 3 events
+2025-10-08 18:32:39,645 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:33:09,645 - INFO - 🔍 Monitoring Cycle 11
+2025-10-08 18:33:09,667 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:33:09,668 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:33:09.668335",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8802303896633283,
+      "severity": "HIGH",
+      "ip": "192.168.1.174",
+      "attack_type": "SQL Injection"
+    }
+  ]
+}
+2025-10-08 18:33:09,669 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:33:09,670 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:33:39,671 - INFO - 🔍 Monitoring Cycle 12
+2025-10-08 18:33:39,694 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:33:39,698 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:33:39.698690",
+  "anomaly_count": 4,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 3,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8959790596073313,
+      "severity": "HIGH",
+      "ip": "192.168.1.155",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.8538422833937775,
+      "severity": "HIGH",
+      "ip": "192.168.1.189",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.8418795074002141,
+      "severity": "HIGH",
+      "ip": "192.168.1.124",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:33:39,699 - WARNING - ⚠️  HIGH RISK THREATS: 3 events
+2025-10-08 18:33:39,700 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:34:09,702 - INFO - 🔍 Monitoring Cycle 13
+2025-10-08 18:34:09,745 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:34:09,746 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:34:09.746393",
+  "anomaly_count": 2,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.6444716641949715,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.27",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.5058660216498729,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.86",
+      "attack_type": "Directory Traversal"
+    }
+  ]
+}
+2025-10-08 18:34:09,747 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:34:39,748 - INFO - 🔍 Monitoring Cycle 14
+2025-10-08 18:34:39,765 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:34:39,768 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:34:39.768465",
+  "anomaly_count": 3,
+  "severity_breakdown": {
+    "CRITICAL": 2,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.9786559371538965,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.230",
+      "attack_type": "SQL Injection"
+    },
+    {
+      "risk_score": 0.9082078927354318,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.56",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.550899787875839,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.101",
+      "attack_type": "Directory Traversal"
+    }
+  ]
+}
+2025-10-08 18:34:39,769 - WARNING - 🚨 CRITICAL THREATS DETECTED: 2 events
+2025-10-08 18:34:39,769 - WARNING - 🔒 Consider blocking IPs: 192.168.1.56, 192.168.1.230
+2025-10-08 18:34:39,770 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:35:09,773 - INFO - 🔍 Monitoring Cycle 15
+2025-10-08 18:35:09,814 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:35:09,817 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:35:09.817098",
+  "anomaly_count": 4,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 2,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.7634027214610641,
+      "severity": "HIGH",
+      "ip": "192.168.1.63",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.7415726067696498,
+      "severity": "HIGH",
+      "ip": "192.168.1.35",
+      "attack_type": "XSS"
+    },
+    {
+      "risk_score": 0.6446081159912942,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.243",
+      "attack_type": "Directory Traversal"
+    }
+  ]
+}
+2025-10-08 18:35:09,818 - WARNING - ⚠️  HIGH RISK THREATS: 2 events
+2025-10-08 18:35:09,819 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:35:39,826 - INFO - 🔍 Monitoring Cycle 16
+2025-10-08 18:35:39,914 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:35:39,915 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:35:39.915184",
+  "anomaly_count": 5,
+  "severity_breakdown": {
+    "CRITICAL": 2,
+    "HIGH": 1,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.9116379698799688,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.2",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.9084390218531654,
+      "severity": "CRITICAL",
+      "ip": "192.168.1.26",
+      "attack_type": "Directory Traversal"
+    },
+    {
+      "risk_score": 0.8923210483153662,
+      "severity": "HIGH",
+      "ip": "192.168.1.82",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:35:39,916 - WARNING - 🚨 CRITICAL THREATS DETECTED: 2 events
+2025-10-08 18:35:39,916 - WARNING - 🔒 Consider blocking IPs: 192.168.1.2, 192.168.1.26
+2025-10-08 18:35:39,917 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:35:39,917 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:36:09,920 - INFO - 🔍 Monitoring Cycle 17
+2025-10-08 18:36:09,942 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:36:09,944 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:36:09.944194",
+  "anomaly_count": 2,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 2,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.56190454346271,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.200",
+      "attack_type": "SQL Injection"
+    },
+    {
+      "risk_score": 0.5439093012491638,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.131",
+      "attack_type": "SQL Injection"
+    }
+  ]
+}
+2025-10-08 18:36:09,944 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:36:39,951 - INFO - 🔍 Monitoring Cycle 18
+2025-10-08 18:36:39,972 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:36:39,973 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:36:39.973776",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 1,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.6690147266879143,
+      "severity": "MEDIUM",
+      "ip": "192.168.1.137",
+      "attack_type": "XSS"
+    }
+  ]
+}
+2025-10-08 18:36:39,974 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:37:09,975 - INFO - 🔍 Monitoring Cycle 19
+2025-10-08 18:37:10,011 - INFO - 📊 No recent data available, generating synthetic anomalies for testing
+2025-10-08 18:37:10,014 - INFO - ML Alert Generated: {
+  "timestamp": "2025-10-08T18:37:10.014392",
+  "anomaly_count": 1,
+  "severity_breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 0,
+    "LOW": 0
+  },
+  "top_threats": [
+    {
+      "risk_score": 0.8175644579559054,
+      "severity": "HIGH",
+      "ip": "192.168.1.175",
+      "attack_type": "Directory Traversal"
+    }
+  ]
+}
+2025-10-08 18:37:10,015 - WARNING - ⚠️  HIGH RISK THREATS: 1 events
+2025-10-08 18:37:10,015 - INFO - ⏳ Waiting 30 seconds until next check...
+2025-10-08 18:37:16,879 - INFO - 🛑 Monitoring stopped by user
