@@ -1,0 +1,11 @@
+{
+  "users": {
+    "admin": {
+      "password_hash": "7db637602c9d70e5bc96256110785addb22844eedfae834d922c9f9ac6ab22d3",
+      "role": "administrator",
+      "created": "2025-10-06T23:08:32.311430",
+      "last_login": null
+    }
+  },
+  "last_updated": "2025-10-06T23:08:32.311463"
+}

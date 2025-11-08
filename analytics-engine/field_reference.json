@@ -1,0 +1,103 @@
+{
+  "index_name": "nginx-parsed-logs",
+  "generated_at": "2025-10-05T15:49:19.251388",
+  "field_mappings": {
+    "@timestamp": {
+      "type": "date",
+      "aggregation_field": "@timestamp"
+    },
+    "attack_type": {
+      "type": "keyword",
+      "aggregation_field": "attack_type"
+    },
+    "city": {
+      "type": "keyword",
+      "aggregation_field": "city"
+    },
+    "country": {
+      "type": "keyword",
+      "aggregation_field": "country"
+    },
+    "ip": {
+      "type": "ip",
+      "aggregation_field": "ip"
+    },
+    "method": {
+      "type": "keyword",
+      "aggregation_field": "method"
+    },
+    "risk_score": {
+      "type": "float",
+      "aggregation_field": "risk_score"
+    },
+    "size": {
+      "type": "long",
+      "aggregation_field": "size"
+    },
+    "status": {
+      "type": "long",
+      "aggregation_field": "status"
+    },
+    "timestamp": {
+      "type": "date",
+      "aggregation_field": "timestamp"
+    },
+    "url": {
+      "type": "text",
+      "aggregation_field": "url.keyword"
+    },
+    "user_agent": {
+      "type": "text",
+      "aggregation_field": "user_agent.keyword"
+    }
+  },
+  "aggregation_ready_fields": [
+    "@timestamp",
+    "attack_type",
+    "city",
+    "country",
+    "ip",
+    "method",
+    "risk_score",
+    "size",
+    "status",
+    "timestamp",
+    "url.keyword",
+    "user_agent.keyword"
+  ],
+  "common_corrections": {
+    "status_code": "status",
+    "response_size": "size",
+    "client_ip": "ip",
+    "user_agent_string": "user_agent.keyword",
+    "request_method": "method",
+    "response_status": "status"
+  },
+  "dashboard_requirements": {
+    "soc_operations": [
+      "status",
+      "ip",
+      "method",
+      "url.keyword",
+      "user_agent.keyword"
+    ],
+    "security_analytics": [
+      "size",
+      "url.keyword",
+      "status",
+      "risk_score",
+      "method"
+    ],
+    "threat_intelligence": [
+      "user_agent.keyword",
+      "attack_type",
+      "risk_score",
+      "country"
+    ],
+    "executive_summary": [
+      "@timestamp",
+      "status",
+      "risk_score"
+    ]
+  }
+}
