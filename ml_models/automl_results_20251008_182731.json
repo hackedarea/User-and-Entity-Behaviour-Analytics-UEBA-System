@@ -1,0 +1,115 @@
+{
+  "timestamp": "20251008_182731",
+  "feature_columns": [
+    "status",
+    "size",
+    "risk_score",
+    "response_time",
+    "url_length",
+    "url_depth",
+    "has_query_params",
+    "has_script",
+    "has_sql",
+    "has_traversal",
+    "has_xss",
+    "has_rfi",
+    "ua_length",
+    "is_bot",
+    "is_curl",
+    "unusual_ua",
+    "is_get",
+    "is_post",
+    "is_unusual_method",
+    "is_success",
+    "is_redirect",
+    "is_client_error",
+    "is_server_error",
+    "large_response",
+    "empty_response",
+    "slow_response",
+    "method_encoded",
+    "attack_type_encoded",
+    "country_encoded"
+  ],
+  "optimization_results": {
+    "RandomForest": {
+      "best_score": 1.0,
+      "best_params": {
+        "n_estimators": 218,
+        "max_depth": 20,
+        "min_samples_split": 15,
+        "min_samples_leaf": 6,
+        "max_features": "sqrt"
+      }
+    },
+    "XGBoost": {
+      "best_score": 1.0,
+      "best_params": {
+        "n_estimators": 144,
+        "max_depth": 10,
+        "learning_rate": 0.22227824312530747,
+        "subsample": 0.8394633936788146,
+        "colsample_bytree": 0.6624074561769746,
+        "reg_alpha": 0.15599452033620265,
+        "reg_lambda": 0.05808361216819946
+      }
+    },
+    "LightGBM": {
+      "best_score": 1.0,
+      "best_params": {
+        "n_estimators": 144,
+        "max_depth": 10,
+        "learning_rate": 0.22227824312530747,
+        "subsample": 0.8394633936788146,
+        "colsample_bytree": 0.6624074561769746,
+        "reg_alpha": 0.15599452033620265,
+        "reg_lambda": 0.05808361216819946,
+        "verbose": -1,
+        "verbosity": -1,
+        "force_col_wise": true
+      }
+    },
+    "SVM": {
+      "best_score": 1.0,
+      "best_params": {
+        "kernel": "rbf",
+        "C": 0.115279871282324,
+        "gamma": "scale"
+      }
+    }
+  },
+  "evaluation_results": {
+    "RandomForest": {
+      "f1_score": 1.0,
+      "f1_std": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "XGBoost": {
+      "f1_score": 1.0,
+      "f1_std": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "LightGBM": {
+      "f1_score": 1.0,
+      "f1_std": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "SVM": {
+      "f1_score": 1.0,
+      "f1_std": 0.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "ensemble_results": {
+    "f1_score": 1.0,
+    "accuracy": 1.0
+  }
+}
