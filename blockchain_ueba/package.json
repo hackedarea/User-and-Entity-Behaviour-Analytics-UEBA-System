@@ -1,0 +1,15 @@
+{
+  "name": "ueba-blockchain",
+  "version": "1.0.0",
+  "description": "UEBA Blockchain Alert Logging System",
+  "main": "truffle-config.js",
+  "scripts": {
+    "migrate": "truffle migrate --network development"
+  },
+  "author": "Ujwal Singh",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^5.5.7",
+    "web3": "^4.16.0"
+  }
+}
